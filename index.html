@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metehan Erdogan | E-Portfolio Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Metehan<span class="gold-text">.Erdogan</span></div>
+        <ul class="nav-links">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#ue">Compétences</a></li>
+            <li><a href="#sae">Projets (SAÉ)</a></li>
+            <li><a href="#cv">Mon CV</a></li>
+        </ul>
+    </nav>
+
+    <header id="accueil" class="hero">
+        <div class="hero-content">
+            <span class="badge-welcome">B.U.T. RÉSEAUX & TÉLÉCOMS</span>
+            <h1>Façonner l'infrastructure <br>et la <span class="gold-gradient">cybersécurité</span></h1>
+            <p>Étudiant en BUT R&T avec une forte appétence pour la cybersécurité. Je suis actuellement à la recherche d'un stage ou d'une alternance dans la région de Mulhouse pour la rentrée prochaine.</p>
+            <div class="hero-actions">
+                <a href="#sae" class="btn btn-gold">Consulter mes SAÉ</a>
+                <a href="https://github.com/Mete682" target="_blank" class="btn btn-outline">Mon GitHub</a>
+                <a href="https://www.linkedin.com/in/metehan-erdogan-96a4623b4/" target="_blank" class="btn btn-outline">Mon LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="ue" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">RÉFÉRENTIEL NATIONAL</span>
+                <h2 class="section-title">Compétences & Apprentissages</h2>
+            </div>
+            
+            <div class="ue-grid">
+                <div class="ue-card glass">
+                    <div class="ue-icon-title">
+                        <div class="icon-box">⚡</div>
+                        <h3>Administrer les réseaux et l'Internet</h3>
+                    </div>
+                    <div class="ue-body">
+                        <h5>Composantes Essentielles (CE)</h5>
+                        <p class="ce-item"><span>CE1.01</span> Solutions & technologies réseaux adaptées</p>
+                        <p class="ce-item"><span>CE1.02</span> Principes fondamentaux de la sécurité</p>
+                        <p class="ce-item"><span>CE1.03</span> Résolution rigoureuse des dysfonctionnements</p>
+                        
+                        <h5>Modules Associés</h5>
+                        <div class="modules-tag-container">
+                            <span class="mod-tag">R1.01</span> <span class="mod-tag">R1.03</span> <span class="mod-tag">R2.01</span> <span class="mod-tag">R2.02</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ue-card glass">
+                    <div class="ue-icon-title">
+                        <div class="icon-box">📡</div>
+                        <h3>Connecter les entreprises et les usagers</h3>
+                    </div>
+                    <div class="ue-body">
+                        <h5>Composantes Essentielles (CE)</h5>
+                        <p class="ce-item"><span>CE2.01</span> Communication client et acteurs</p>
+                        <p class="ce-item"><span>CE2.02</span> Démarche scientifique rigoureuse</p>
+                        <p class="ce-item"><span>CE2.03</span> Choix des technologies d'accès et transmission</p>
+                        
+                        <h5>Modules Associés</h5>
+                        <div class="modules-tag-container">
+                            <span class="mod-tag">R1.04</span> <span class="mod-tag">R1.05</span> <span class="mod-tag">R2.04</span> <span class="mod-tag">R2.05</span> <span class="mod-tag">R2.06</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ue-card glass">
+                    <div class="ue-icon-title">
+                        <div class="icon-box">💻</div>
+                        <h3>Créer des outils et applications informatiques</h3>
+                    </div>
+                    <div class="ue-body">
+                        <h5>Composantes Essentielles (CE)</h5>
+                        <p class="ce-item"><span>CE3.02</span> Documentation complète du travail réalisé</p>
+                        <p class="ce-item"><span>CE3.04</span> Choix judicieux des outils de développement</p>
+                        <p class="ce-item"><span>CE3.05</span> Intégration avancée de la sécurité applicative</p>
+                        
+                        <h5>Modules Associés</h5>
+                        <div class="modules-tag-container">
+                            <span class="mod-tag">R1.07</span> <span class="mod-tag">R1.08</span> <span class="mod-tag">R1.09</span> <span class="mod-tag">R2.07</span> <span class="mod-tag">R2.08</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sae" class="section bg-darker">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">PROJETS UNIVERSITAIRES</span>
+                <h2 class="section-title">Parcours des SAÉ</h2>
+                <div class="filter-tabs">
+                    <button class="tab-btn active" onclick="filterSae('all')">Toutes les SAÉ</button>
+                    <button class="tab-btn" onclick="filterSae('s1')">Semestre 1</button>
+                    <button class="tab-btn" onclick="filterSae('s2')">Semestre 2</button>
+                </div>
+            </div>
+
+            <div class="sae-grid">
+                <div class="sae-card glass target-s1" onclick="openSaeModal('sae101')">
+                    <div class="sae-meta"><span>Semestre 1</span> <span class="gold-badge">Cyber</span></div>
+                    <h3>SAÉ 1.01 - Hygiène & Cybersécurité</h3>
+                    <p class="sae-preview-text">Sensibilisation au RGPD et analyse du fonctionnement des malwares.</p>
+                    <span class="action-trigger">Analyser le projet &rarr;</span>
+                </div>
+
+                <div class="sae-card glass target-s1" onclick="openSaeModal('sae102')">
+                    <div class="sae-meta"><span>Semestre 1</span> <span class="gold-badge">Réseau</span></div>
+                    <h3>SAÉ 1.02 - Initiation aux réseaux</h3>
+                    <p class="sae-preview-text">Création et simulation d'une infrastructure réseau sous EVE-NG.</p>
+                    <span class="action-trigger">Analyser le projet &rarr;</span>
+                </div>
+
+                <div class="sae-card glass target-s1" onclick="openSaeModal('sae103')">
+                    <div class="sae-meta"><span>Semestre 1</span> <span class="gold-badge">Transmissions</span></div>
+                    <h3>SAÉ 1.03 - Dispositif de transmission</h3>
+                    <p class="sae-preview-text">Mesure de signaux Wi-Fi et génération de cartographies (Heatmaps).</p>
+                    <span class="action-trigger">Analyser le projet &rarr;</span>
+                </div>
+
+                <div class="sae-card glass target-s1" onclick="openSaeModal('sae104')">
+                    <div class="sae-meta"><span>Semestre 1</span> <span class="gold-badge">Web</span></div>
+                    <h3>SAÉ 1.04 - Présence sur Internet</h3>
+                    <div class="sae-preview-text">Création d'un premier CV numérique sous forme de site web en HTML/CSS.</div>
+                    <span class="action-trigger">Analyser le projet &rarr;</span>
+                </div>
+
+                <div class="sae-card glass target-s1" onclick="openSaeModal('sae105')">
+                    <div class="sae-meta"><span>Semestre 1</span> <span class="gold-badge">Scripting</span></div>
+                    <h3>SAÉ 1.05 - Traitement de données</h3>
+                    <p class="sae-preview-text">Développement d'un outil de reporting pour classer les fichiers volumineux.</p>
+                    <span class="action-trigger">Analyser le projet &rarr;</span>
+                </div>
+
+                <div class="sae-card glass target-s2" onclick="openSaeModal('sae201')">
+                    <div class="sae-meta"><span>Semestre 2</span> <span class="gold-badge">GNS3 / Cisco</span></div>
+                    <h3>SAÉ 2.01 - Réseau pour structure</h3>
+                    <p class="sae-preview-text">Simulation d'architecture réseau d'entreprise sur GNS3 avec équipements Cisco.</p>
+                    <span class="action-trigger">Analyser le projet &rarr;</span>
+                </div>
+
+                <div class="sae-card glass target-s2" onclick="openSaeModal('sae202')">
+                    <div class="sae-meta"><span>Semestre 2</span> <span class="gold-badge">IoT / Audio</span></div>
+                    <h3>SAÉ 2.02 - Web Radio ESP32</h3>
+                    <p class="sae-preview-text">Conception d'une webradio matérielle (C++, WiFi, décodage audio, MQTT).</p>
+                    <span class="action-trigger">Analyser le projet &rarr;</span>
+                </div>
+
+                <div class="sae-card glass target-s2" onclick="openSaeModal('sae203')">
+                    <div class="sae-meta"><span>Semestre 2</span> <span class="gold-badge">Dev / SQL</span></div>
+                    <h3>SAÉ 2.03 - Solution Ludothèque</h3>
+                    <p class="sae-preview-text">Déploiement d'une VM, gestion d'une base MariaDB et framework Django.</p>
+                    <span class="action-trigger">Analyser le projet &rarr;</span>
+                </div>
+
+                <div class="sae-card glass target-s2" onclick="openSaeModal('sae204')">
+                    <div class="sae-meta"><span>Semestre 2</span> <span class="gold-badge">Intégration</span></div>
+                    <h3>SAÉ 2.04 - Projet Intégratif S2</h3>
+                    <p class="sae-preview-text">Projet global : Routeurs physiques, VoIP, Base de données et injection MQTT.</p>
+                    <span class="action-trigger">Analyser le projet &rarr;</span>
+                </div>
+
+                <div class="sae-card glass target-s2" onclick="openSaeModal('sae205')">
+                    <div class="sae-meta"><span>Semestre 2</span> <span class="gold-badge">Portfolio</span></div>
+                    <h3>SAÉ 2.05 - Démarche réflexive</h3>
+                    <p class="sae-preview-text">Création de cet e-portfolio pour valoriser l'acquisition de mes compétences.</p>
+                    <span class="action-trigger">Analyser le projet &rarr;</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="cv" class="section">
+        <div class="container">
+            <div class="cv-wrapper glass">
+                <div class="cv-info">
+                    <span class="subtitle">CURRICULUM VITAE</span>
+                    <h2>Mon Parcours Professionnel</h2>
+                    <p>Étudiant déterminé et passionné par les infrastructures informatiques. Mon objectif est d'intégrer la filière Cybersécurité afin de concevoir et protéger les réseaux de demain. Rigoureux dans mes projets techniques, je cultive également la discipline à travers la pratique sportive et l'esprit d'analyse via le gaming.</p>
+                    
+                    <div class="cv-highlights">
+                        <div class="hl-item"><strong>Formation actuelle :</strong> B.U.T. Réseaux et Télécommunications - IUT de Mulhouse</div>
+                        <div class="hl-item"><strong>Diplôme obtenu :</strong> Baccalauréat STI2D (Mention Assez Bien) - Lycée Louis Armand, Mulhouse</div>
+                        <div class="hl-item"><strong>Compétences Clés :</strong> Administration Cisco (VLAN, Routage), Linux (VM, MariaDB), Scripting (Python, PowerShell), IoT (C++, ESP32, MQTT)</div>
+                        <div class="hl-item"><strong>Centres d'intérêt :</strong> Pratique sportive (Musculation), Jeux vidéo (Esport et analyse stratégique).</div>
+                    </div>
+                    
+                    <div class="cv-actions" style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="mailto:e.metehan5868@gmail.com" class="btn btn-gold">Me contacter par E-mail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="saeModal" class="modal-overlay" onclick="closeSaeModal()">
+        <div class="modal-content glass" onclick="event.stopPropagation()">
+            <button class="close-btn" onclick="closeSaeModal()">&times;</button>
+            <div id="modalBody">
+                </div>
+        </div>
+    </div>
+
+    <script>
+        const saeData = {
+            sae101: {
+                title: "SAÉ 1.01 - Sensibilisation à la cybersécurité",
+                ce: "CE1.02 | Respecter les principes fondamentaux de la sécurité informatique",
+                ac: "AC11.02, AC11.05",
+                content: "<h4>Contexte et réalisations</h4><p>Ce projet s'est concentré sur les enjeux juridiques et techniques de la sécurité numérique. En équipe, nous avons réalisé un travail de recherche approfondi sur le Règlement Général sur la Protection des Données (RGPD) et son application en entreprise. Nous avons également étudié les mécanismes d'infection des malwares. Notre travail a abouti à une présentation orale détaillée, appuyée par une vidéo de sensibilisation conçue par nos soins pour alerter les utilisateurs sur les menaces courantes.</p>"
+            },
+            sae102: {
+                title: "SAÉ 1.02 - S’initier aux réseaux informatiques",
+                ce: "CE1.01 | Choisir les solutions réseaux adaptées",
+                ac: "AC11.03 | Configurer les fonctions de base du réseau local",
+                content: "<h4>Contexte et réalisations</h4><p>Cette SAÉ a marqué ma première véritable conception d'infrastructure. À l'aide de l'émulateur réseau avancé EVE-NG, j'ai mis en place un réseau d'entreprise restreint. Le travail a consisté à simuler l'interconnexion d'équipements virtuels, à appliquer des plans d'adressage IP cohérents et à assurer la connectivité de bout en bout de la topologie (câblage logique, switchs virtuels et vérification des tables de routage).</p>"
+            },
+            sae103: {
+                title: "SAÉ 1.03 - Découvrir un dispositif de transmission",
+                ce: "CE2.02 | Faire preuve d’une démarche scientifique",
+                ac: "AC12.01 | Mesurer, analyser et commenter les signaux",
+                content: "<h4>Contexte et réalisations</h4><p>Ce projet visait à auditer les performances d'un réseau sans fil physique. Avec mon groupe, nous avons mené une campagne de relevés point par point de l'intensité du signal Wi-Fi à travers deux bâtiments distincts. Nous avons ensuite exploité un logiciel spécialisé pour traiter ces données et générer des cartes de chaleur (heatmaps), permettant d'identifier les zones d'ombre, les interférences et la qualité globale de la couverture réseau.</p>"
+            },
+            sae104: {
+                title: "SAÉ 1.04 - Se présenter sur Internet",
+                ce: "CE3.04 | Choisir les outils de développement adaptés",
+                ac: "AC13.04 | Connaître l’architecture d’un site Web",
+                content: "<h4>Contexte et réalisations</h4><p>Initiation au développement front-end. L'objectif était de créer une identité numérique professionnelle à travers la réalisation de mon tout premier site web. En utilisant les langages sémantiques HTML5 et le design CSS3, j'ai codé et structuré un Curriculum Vitae numérique, me permettant d'appréhender les bases du développement web et de la gestion de contenu.</p>"
+            },
+            sae105: {
+                title: "SAÉ 1.05 - Traiter des données",
+                ce: "CE3.02 | Documenter le travail réalisé",
+                ac: "AC13.02 | Lire, exécuter, corriger un programme",
+                content: "<h4>Contexte et réalisations</h4><p>Développement d'un outil applicatif d'administration système. Nous avons codé un programme permettant de rechercher, localiser et organiser efficacement les fichiers volumineux stockés sur un ordinateur. Pour ce faire, j'ai manipulé des scripts en PowerShell et en Python, et j'ai contribué à l'élaboration de l'interface graphique de l'application en utilisant la bibliothèque PyQt5.</p>"
+            },
+            sae201: {
+                title: "SAÉ 2.01 - Réseau pour une petite structure",
+                ce: "CE1.01, CE1.02, CE1.03",
+                ac: "AC11.03, AC21.01, AC21.02",
+                content: "<h4>Contexte et réalisations</h4><p>Suite logique de la SAÉ 1.02, mais à un niveau de complexité supérieur. J'ai déployé une architecture réseau fonctionnelle et résiliente sur le simulateur GNS3. J'ai réalisé la configuration complète d'équipements Cisco en ligne de commande (CLI), incluant la segmentation logique via des VLANs, le routage inter-VLAN et l'implémentation de règles réseau d'entreprise.</p>"
+            },
+            sae202: {
+                title: "SAÉ 2.02 - Web Radio sur système embarqué",
+                ce: "CE2.02, CE2.03",
+                ac: "AC12.01, AC22.01",
+                content: "<h4>Contexte et réalisations</h4><p>Un de mes projets les plus complets techniquement. J'ai réalisé l'ingénierie d'une Webradio IoT. J'ai pris en charge le montage matériel d'un microcontrôleur ESP32 couplé à un décodeur VS1053, puis j'ai rédigé le code en C++ (Arduino IDE) pour la connexion au Wi-Fi, la gestion du flux audio et l'intégration des bibliothèques nécessaires. La difficulté majeure, que j'ai su surmonter, a résidé dans l'implémentation du protocole MQTT pour la transmission des requêtes de contrôle.</p>"
+            },
+            sae203: {
+                title: "SAÉ 2.03 - Solution informatique pour l'entreprise",
+                ce: "CE3.01, CE3.04",
+                ac: "AC23.02, AC23.04",
+                content: "<h4>Contexte et réalisations</h4><p>Déploiement d'une application d'entreprise de type Ludothèque. Mon rôle principal a été d'administrer l'infrastructure d'hébergement : j'ai déployé et configuré une machine virtuelle Linux (VM), puis j'ai installé et modélisé la base de données relationnelle sous MariaDB. J'ai également participé à l'intégration du backend de l'application en utilisant le framework Python Django.</p>"
+            },
+            sae204: {
+                title: "SAÉ 2.04 - Projet intégratif de S2",
+                ce: "Inter-UE (CE1, CE2, CE3)",
+                ac: "Application globale des acquis",
+                content: "<h4>Contexte et réalisations</h4><p>Ce projet final a exigé la fusion de toutes les compétences réseaux, systèmes et programmation acquises. À partir d'équipements physiques fournis (routeur et switch), j'ai effectué une configuration matérielle via PuTTY. J'ai interconnecté trois postes clients (dont un serveur Linux) au réseau. J'ai ensuite intégré de la Téléphonie sur IP (VoIP) avec un téléphone physique et des softphones Linphone. Enfin, le projet s'est clôturé par le développement d'une API Django connectée à une base de données, alimentée en temps réel par des capteurs via le protocole MQTT.</p>"
+            },
+            sae205: {
+                title: "SAÉ 2.05 - Portfolio",
+                ce: "CE3.02 | Documenter le travail réalisé",
+                ac: "AC26.06 | Travailler en équipe pour développer ses compétences",
+                content: "<h4>Contexte et réalisations</h4><p>Démarche réflexive sur mes acquis de première année. J'ai conçu, développé et rédigé l'intégralité du site web sur lequel vous naviguez actuellement pour mettre en valeur mon parcours, mon code, et l'obtention de mes Apprentissages Critiques (AC) pour l'insertion en filière Cybersécurité.</p>"
+            }
+        };
+
+        function openSaeModal(id) {
+            const data = saeData[id];
+            if (!data) return;
+            
+            document.getElementById('modalBody').innerHTML = `
+                <div class="modal-header-info">
+                    <h2>${data.title}</h2>
+                    <div class="modal-tags">
+                        <div class="m-tag font-gold"><strong>Composante Essentielle :</strong> ${data.ce}</div>
+                        <div class="m-tag"><strong>Apprentissages Critiques :</strong> ${data.ac}</div>
+                    </div>
+                </div>
+                <div class="modal-main-content">
+                    ${data.content}
+                </div>
+            `;
+            document.getElementById('saeModal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeSaeModal() {
+            document.getElementById('saeModal').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function filterSae(semester) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            document.querySelectorAll('.sae-card').forEach(card => {
+                if (semester === 'all') {
+                    card.style.display = 'flex';
+                } else if (semester === 's1' && card.classList.contains('target-s1')) {
+                    card.style.display = 'flex';
+                } else if (semester === 's2' && card.classList.contains('target-s2')) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
